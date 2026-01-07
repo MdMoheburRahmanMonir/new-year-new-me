@@ -166,7 +166,86 @@
     width: 459px;
     height: 94px;
 }
-.footerTop div button {
+.btn2 {
     background-color: #fff;
     color: #F15B22;
+}
+
+.footer{
+    height: 570px;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    position: relative;
+}
+.footer section{
+    position: absolute;
+    width: 1140px;
+    height: 317px; 
+    margin: 130px 230px;
+    display: flex; 
+    justify-content: space-around;
+}
+.fdiv{
+    width: 484px;
+    height: 317px; 
+}
+.fdiv h1{
+    font-weight: bold;
+    font-size: 45px;
+    color: #F8F8F8;
+    margin-bottom: 16px;
+}
+.fdiv .paragroph1 {
+    width: 485px;
+    height: 78px;
+    line-height: 26px;
+    font-size: 16px;
+    font-weight: regular;
+    margin-bottom: 24px;
+    color: white;
+}
+.fdiv p{
+    color: white;
+    width: 200px;
+    height: 26px;
+    margin-bottom: 16px;
+
+}
+.fdiv ul{
+    list-style: none;
+    display: flex;
+}
+.fdiv ul li{
+    height: 47px;
+    width: 47px;
+    margin-right: 17px;
+    border-radius: 100%;
+    background-color: #fff;
+    color: #1877F2;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+}
+.fdiv ul li:nth-child(3){ 
+    color: #FF0000 ;
+}
+.fdiv ul li:nth-child(2){ 
+    color: #1DA1F2 ;
+}
+.fdiv2 h3{
+    height: 29px;
+    width: 123px;
+    font-size: 25px;
+    font-weight: semiBold;
+    color: white;
+    margin-bottom: 31px;
+}
+.fdiv2 input{
+    width: 325px;
+    height: 64px;
+    padding: 22px;
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 16px;
 }
