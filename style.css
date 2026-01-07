@@ -147,3 +147,26 @@
     font-weight: medium;
     font-size: 25px;
 }
+.footerTop {
+    width: 1140px;
+    height: 300px;
+    margin: 0 auto;
+    position: relative;
+    background-image: url(./images/gradient2.png) , url(./images/watch.png);
+    margin-bottom: 130px;
+}
+.footerTop div {
+    position: absolute;
+    width: 459px;
+    height: 182px;
+    margin: 49px 64px;
+}
+.footerTop div h1{
+    margin-bottom: 24px;
+    width: 459px;
+    height: 94px;
+}
+.footerTop div button {
+    background-color: #fff;
+    color: #F15B22;
+}
