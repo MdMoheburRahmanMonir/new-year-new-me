@@ -10,242 +10,351 @@
  }
 
  /* Main element selector all */
- .header {
+ .buttonsection {
+     height: 50px;
+     padding-bottom: 50px;
+     max-width: 1600px;  
+ }
+
+ .buttonsection div { 
+     width: 700px;
+     display: flex;
+     justify-content: space-between;
+     margin: 0px auto;
+     padding-top: 10px;
+ }
+
+ .buttonsection div button {
+     height: 50px;
+     width: 150px;
+     color: white;
+     padding: 5px;
+     background-color: #F15B22;
+     border: none;
+     border-radius: 8px;
+     cursor: pointer;
+ }
+
+
+ 
+ .header1 {
      height: 808px;
      max-width: 1600px;
      background-image: url(./images/banner/banner1.png);
      background-position: center;
-     background-repeat: no-repeat;     
+     background-repeat: no-repeat;
      
- } 
- .header-content{
-    width:  1140px;
-    height: 426px;
-    margin: auto;
-    padding-top: 190px;
-    text-align: right;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
- }
- .heading{
-    width: 525px;
-    height: 228px;
-    font-size: 65px;
-    color: #151414;
-    text-align: right;
-    margin-bottom: 24px;
+    }
+    .header2 {
+        height: 808px;
+        max-width: 1600px;
+        background-image: url(./images/banner/banner2.png);
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+ .header3  {
+     height: 808px;
+     max-width: 1600px;
+     background-image: url(./images/banner/banner3.png);
+     background-position: center;
+     background-repeat: no-repeat;
+
  }
 
- .paragroph{
-    width: 494px;
-    height: 78px;
-    font-size: 16px;
-    color: #151414;
-    text-align: right;
-    font-weight: regular;
-    margin-bottom: 40px;
-    line-height: 26px;
-    margin-bottom: 32px;
+ .header-content {
+     width: 1140px;
+     height: 426px;
+     margin: auto;
+     padding-top: 190px;
+     text-align: right;
+     display: flex;
+     flex-direction: column;
+     align-items: flex-end;
+ }
+
+ .heading {
+     width: 525px;
+     height: 228px;
+     font-size: 65px;
+     color: #151414;
+     text-align: right;
+     margin-bottom: 24px;
+ }
+
+ .paragroph {
+     width: 494px;
+     height: 78px;
+     font-size: 16px;
+     color: #151414;
+     text-align: right;
+     font-weight: regular;
+     margin-bottom: 40px;
+     line-height: 26px;
+     margin-bottom: 32px;
+ }
+
+ .mybtn1 {
+     width: 160px;
+     height: 64px;
+     background-color: #F15B22;
+     border: none;
+     border-radius: 5px;
+     color: #FFFFFF;
+     font-size: 20px;
+     cursor: pointer;
+     font-weight: semibold;
+     padding: 20px 25px;
+ }
+ .mybtn2 {
+     width: 160px;
+     height: 64px;
+     background-color: #F15B22;
+     border: none;
+     border-radius: 5px;
+     color: #FFFFFF;
+     font-size: 20px;
+     cursor: pointer;
+     font-weight: semibold;
+     padding: 20px 25px;
  }
  .btn{
-    width: 160px;
-    height: 64px;
-    background-color: #F15B22;
-    border: none;
-    border-radius: 5px;
-    color: #FFFFFF;
-    font-size: 20px;
-    cursor: pointer;
-    font-weight: semibold;
-    padding: 20px 25px;
+   
+     width: 160px;
+     height: 64px;
+     background-color: #F15B22;
+     border: none;
+     border-radius: 5px;
+     color: #FFFFFF;
+     font-size: 20px;
+     cursor: pointer;
+     font-weight: semibold;
+     padding: 20px 25px;
+ 
+ }
+ .mybtn3 {
+     width: 160px;
+     height: 64px;
+     background-color: white;
+     border: none;
+     border-radius: 5px;
+     color:  blue;
+     font-size: 20px;
+     cursor: pointer;
+     font-weight: semibold;
+     padding: 20px 25px;
  }
 
- .section-content{
-    width:  1140px;
-    height: 723px;
-    margin: auto; 
-    gap: 87px;
-    display: flex; 
-    justify-content: space-between;  
-    margin: 131px auto;
-}
-.imagediv{
+ .section-content {
+     width: 1140px;
+     height: 723px;
+     margin: auto;
+     gap: 87px;
+     display: flex;
+     justify-content: space-between;
+     margin: 131px auto;
+ }
 
-    width: 569px;
-    height: 723.3px;
-}
-.imagediv img{
-    width: 569px;
-    height: 723.3px;   
-    
-}
+ .imagediv {
 
- 
-.mover{
-    padding-top: 239px;
-}
-.biodiv h2{
-    font-weight: bold;
-    font-size: 40px;
-    width: 288px;
-    height: 94px;
-    color: #151414;
-    margin-bottom: 24px;
-}
-.biodiv p{
-    font-weight: regular;
-    font-size: 16px;
-    line-height: 26px;
-    color: #444343;
-    width: 460px;
-    height: 104px;
-    margin-bottom: 16px;
-}   
-.biodiv ul{
-    display: flex;
-    flex-direction: column;
-    list-style: none;
-    gap: 8px;
-}
+     width: 569px;
+     height: 723.3px;
+ }
 
-.biodiv ul li i{
-    color: green;
-}
-.plansection{
-    width:  1140px;
-    height: 300px;
-    margin: auto;  
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 130px;
-}
-.plansection   .planheader {
-    
-    width:  179px;
-    height: 47px;
-    margin-bottom: 55px;
-    font-weight: bold;
-    font-size: 40px;
-    color: #151414;
-}
-.plancard{
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
-    text-align: center;
+ .imagediv img {
+     width: 569px;
+     height: 723.3px;
 
-}
-.plancard div h4{
-    font-weight: bold;
-    font-size: 30px;
-    margin-bottom: 16px;
-    text-align: center;
-}
-.plancard div h4{
-    font-weight: medium;
-    font-size: 25px;
-}
-.footerTop {
-    width: 1140px;
-    height: 300px;
-    margin: 0 auto;
-    position: relative;
-    background-image: url(./images/gradient2.png) , url(./images/watch.png);
-    margin-bottom: 130px;
-}
-.footerTop div {
-    position: absolute;
-    width: 459px;
-    height: 182px;
-    margin: 49px 64px;
-}
-.footerTop div h1{
-    margin-bottom: 24px;
-    width: 459px;
-    height: 94px;
-}
-.btn2 {
-    background-color: #fff;
-    color: #F15B22;
-}
+ }
 
-.footer{
-    height: 570px;
-    width: 100%;
-    background-color: rgb(0, 0, 0);
-    position: relative;
-}
-.footer section{
-    position: absolute;
-    width: 1140px;
-    height: 317px; 
-    margin: 130px 230px;
-    display: flex; 
-    justify-content: space-around;
-}
-.fdiv{
-    width: 484px;
-    height: 317px; 
-}
-.fdiv h1{
-    font-weight: bold;
-    font-size: 45px;
-    color: #F8F8F8;
-    margin-bottom: 16px;
-}
-.fdiv .paragroph1 {
-    width: 485px;
-    height: 78px;
-    line-height: 26px;
-    font-size: 16px;
-    font-weight: regular;
-    margin-bottom: 24px;
-    color: white;
-}
-.fdiv p{
-    color: white;
-    width: 200px;
-    height: 26px;
-    margin-bottom: 16px;
 
-}
-.fdiv ul{
-    list-style: none;
-    display: flex;
-}
-.fdiv ul li{
-    height: 47px;
-    width: 47px;
-    margin-right: 17px;
-    border-radius: 100%;
-    background-color: #fff;
-    color: #1877F2;
-    display: flex;
-    justify-content: space-around;
-    text-align: center;
-    align-items: center;
-}
-.fdiv ul li:nth-child(3){ 
-    color: #FF0000 ;
-}
-.fdiv ul li:nth-child(2){ 
-    color: #1DA1F2 ;
-}
-.fdiv2 h3{
-    height: 29px;
-    width: 123px;
-    font-size: 25px;
-    font-weight: semiBold;
-    color: white;
-    margin-bottom: 31px;
-}
-.fdiv2 input{
-    width: 325px;
-    height: 64px;
-    padding: 22px;
-    border: none;
-    border-radius: 8px;
-    margin-bottom: 16px;
-}
+ .mover {
+     padding-top: 239px;
+ }
+
+ .biodiv h2 {
+     font-weight: bold;
+     font-size: 40px;
+     width: 288px;
+     height: 94px;
+     color: #151414;
+     margin-bottom: 24px;
+ }
+
+ .biodiv p {
+     font-weight: regular;
+     font-size: 16px;
+     line-height: 26px;
+     color: #444343;
+     width: 460px;
+     height: 104px;
+     margin-bottom: 16px;
+ }
+
+ .biodiv ul {
+     display: flex;
+     flex-direction: column;
+     list-style: none;
+     gap: 8px;
+ }
+
+ .biodiv ul li i {
+     color: green;
+ }
+
+ .plansection {
+     width: 1140px;
+     height: 300px;
+     margin: auto;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     margin-bottom: 130px;
+ }
+
+ .plansection .planheader {
+
+     width: 179px;
+     height: 47px;
+     margin-bottom: 55px;
+     font-weight: bold;
+     font-size: 40px;
+     color: #151414;
+ }
+
+ .plancard {
+     display: flex;
+     justify-content: space-around;
+     width: 100%;
+     text-align: center;
+
+ }
+
+ .plancard div h4 {
+     font-weight: bold;
+     font-size: 30px;
+     margin-bottom: 16px;
+     text-align: center;
+ }
+
+ .plancard div h4 {
+     font-weight: medium;
+     font-size: 25px;
+ }
+
+ .footerTop {
+     width: 1140px;
+     height: 300px;
+     margin: 0 auto;
+     position: relative;
+     background-image: url(./images/gradient2.png), url(./images/watch.png);
+     margin-bottom: 130px;
+ }
+
+ .footerTop div {
+     position: absolute;
+     width: 459px;
+     height: 182px;
+     margin: 49px 64px;
+ }
+
+ .footerTop div h1 {
+     margin-bottom: 24px;
+     width: 459px;
+     height: 94px;
+ }
+
+ .btn2 {
+     background-color: #fff;
+     color: #F15B22;
+ }
+
+ .footer {
+     height: 570px;
+     width: 100%;
+     background-color: rgb(0, 0, 0);
+     position: relative;
+ }
+
+ .footer section {
+     position: absolute;
+     width: 1140px;
+     height: 317px;
+     margin: 130px 230px;
+     display: flex;
+     justify-content: space-around;
+ }
+
+ .fdiv {
+     width: 484px;
+     height: 317px;
+ }
+
+ .fdiv h1 {
+     font-weight: bold;
+     font-size: 45px;
+     color: #F8F8F8;
+     margin-bottom: 16px;
+ }
+
+ .fdiv .paragroph1 {
+     width: 485px;
+     height: 78px;
+     line-height: 26px;
+     font-size: 16px;
+     font-weight: regular;
+     margin-bottom: 24px;
+     color: white;
+ }
+
+ .fdiv p {
+     color: white;
+     width: 200px;
+     height: 26px;
+     margin-bottom: 16px;
+
+ }
+
+ .fdiv ul {
+     list-style: none;
+     display: flex;
+ }
+
+ .fdiv ul li {
+     height: 47px;
+     width: 47px;
+     margin-right: 17px;
+     border-radius: 100%;
+     background-color: #fff;
+     color: #1877F2;
+     display: flex;
+     justify-content: space-around;
+     text-align: center;
+     align-items: center;
+ }
+
+ .fdiv ul li:nth-child(3) {
+     color: #FF0000;
+ }
+
+ .fdiv ul li:nth-child(2) {
+     color: #1DA1F2;
+ }
+
+ .fdiv2 h3 {
+     height: 29px;
+     width: 123px;
+     font-size: 25px;
+     font-weight: semiBold;
+     color: white;
+     margin-bottom: 31px;
+ }
+
+ .fdiv2 input {
+     width: 325px;
+     height: 64px;
+     padding: 22px;
+     border: none;
+     border-radius: 8px;
+     margin-bottom: 16px;
+ }

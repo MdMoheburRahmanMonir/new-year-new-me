@@ -15,13 +15,20 @@
 </head>
 
 <body class="work-sans">
-    <header class="header">
+    <header class="header2" id="header">
+        <section class="buttonsection box">
+            <div>
+                <button id="btn1" onclick="firstbtn1()">Button 1</button>
+                <button id="btn2" onclick="firstbtn2()">Button 2</button>
+                <button id="btn3" onclick="firstbtn3()">Button 3</button>
+            </div>
+        </section>
         <section class="header-content">
             <h1 class="heading">All Thinks Are Possible If You Believe </h1>
             <p class="paragroph">There are many variations of passages of Lorem Ipsum available, but the majority have
                 suffered alteration
                 in some form, by injected humour, or randomised words</p>
-            <button class="btn">Contact Us</button>
+            <button class="btn mybtn1" id="contactbtn">Contact Us</button>
         </section>
     </header>
     <main>
@@ -83,7 +90,8 @@
         <section>
             <div class="fdiv">
                 <h1>Future</h1>
-                <p class="paragroph1">There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                <p class="paragroph1">There are many variations of passages of Lorem Ipsum available, but the majority
+                    have suffered
                     alteration in some form, by injected humour, or randomised words</p>
                 <p>Email : mdmohiburrahmanmanik@gmail.com</p>
                 <p>Phone : +8801887 344542</p>
@@ -93,13 +101,45 @@
                     <li><i class="fa-brands fa-youtube"></i></li>
                 </ul>
             </div>
-            <div class="fdiv fdiv2"> 
+            <div class="fdiv fdiv2">
                 <h3>Subscribe</h3>
                 <input type="email" placeholder="Enter your email" id="">
-                <button class="btn btn2">Subscribe</button>
+                <button class="btn btn2 ">Subscribe</button>
             </div>
         </section>
     </footer>
+    <script>
+        function firstbtn1() {
+            document.getElementById("header").classList.add("header1");
+            document.getElementById("header").classList.remove("header2");
+            document.getElementById("header").classList.remove("header3");
+
+            document.getElementById("contactbtn").classList.remove("mybtn3");
+            document.getElementById("contactbtn").classList.remove("mybtn2");
+            document.getElementById("contactbtn").classList.add("mybtn1");
+        }
+        function firstbtn2() {
+            document.getElementById("header").classList.add("header2");
+            document.getElementById("header").classList.remove("header1");
+            document.getElementById("header").classList.remove("header3");
+
+            document.getElementById("contactbtn").classList.remove("mybtn3");
+            document.getElementById("contactbtn").classList.remove("mybtn1");
+            document.getElementById("contactbtn").classList.add("mybtn2");
+        }
+        function firstbtn3() {
+            document.getElementById("header").classList.add("header3");
+            document.getElementById("header").classList.remove("header1");
+            document.getElementById("header").classList.remove("header2");
+
+            document.getElementById("contactbtn").classList.remove("mybtn1");
+            document.getElementById("contactbtn").classList.remove("mybtn2");
+            document.getElementById("contactbtn").classList.add("mybtn3");
+
+        }
+
+
+    </script>
 </body>
 
 
